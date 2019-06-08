@@ -9,11 +9,8 @@ function answerIsTrue() {
 
   $affirmative = ['yes', 'sure', 'ok', 'okay', 'please', 'alright', 'all right', 'go ahead', 'yeah', 'definitely', 'absolutely', 'why not', 'i suppose', 'i guess', 'yep', 'yup'];
 
-  foreach($affirmative as $yes) {
-    if (stripos($answer, $yes) !== false) {
-      return true;
-      break;
-    }
+  if(in_array($answer, $affirmative)) {
+    return true;
   }
 }
 
