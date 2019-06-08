@@ -37,19 +37,8 @@ if (array_key_exists('answer', $headers)) {
 if (isset($request)) {
   
   // The code below determines which route to use based on which words are contained in the request
-  
-  // Function to process request phrase for keywords. Call requestContains("term") to check whether a word or set of words exists in the request. Use these keywords to determine the intent and then use the `do` below to forward the trigger the correct 
 
-  function requestContains($term) {
-    global $request;
-    if (stripos ($request, $term) !== false) {
-      return true;
-    } else {
-      return false;
-    }
-  }
-
-  // Check the request for each set of keywords. Stops checking as soon as a match is found. Use nested if statements or any other comparison tricks you want.
+  // Check the request for each set of keywords. Stops checking as soon as a match is found. Use nested if statements or any other comparison tricks you want. You can find the requestContains() function core/functions.php.
   do {
 
     // Trigger followup conversation loop - do not change this
