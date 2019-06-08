@@ -16,7 +16,7 @@ if (array_key_exists('key', $headers)) {
 // Function to verify API key and return API-approrpiate message
 function verifyKey($key) {
   global $goodKey;
-  $errorMessage = "Your API key is invalid.";
+  $errorMessage = ['speech' => "Sorry, it looks like your API key is invalid."];
   if ($key != $goodKey) {
     respondWithMessage("error", $errorMessage);
   }
