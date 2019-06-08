@@ -24,4 +24,4 @@ In the `patterns` directory you will find two files showing how to do some inter
 # Demo Video
 Since GitHub hates video embeds, you can view the demo video on YouTube: [https://www.youtube.com/watch?v=7eALVzzf2YM](https://www.youtube.com/watch?v=7eALVzzf2YM).
 
-In this demo I ask Siri to fetch data from my web server, which it does, then it asks a follow-up question. For this demo, I set the follow-up question to always follow up by asking my if I wanted to hear the notes again. In your implementation you can set the follow-up to the follow-up to anything you want, so rather than just looping the last response you can get data through conversational input.
+In this demo I ask Siri to fetch data from my web server, which it does, then it asks a follow-up question. For this demo, I set the follow-up question to always follow up by asking me if I wanted to hear the notes again. In your implementation you can set the follow-up to the follow-up to anything you want, so rather than just looping the last response you can get data through conversational input.
