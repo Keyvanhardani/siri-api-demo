@@ -18,3 +18,5 @@ To set up the initial installation, follow these steps:
 6. Test the connection by saying "Hey Siri, show me a demo" (or whatever command you are using, then, when Siri asks for your input, say anything including the word "test" or "example" to see a response. Siri should ask a follow-up question after that, and responding with any of the affirmative answers in the `$affirmative` array (inside `endpoints/followup.php` on the server) should result in a second response. (For reference, these responses are common words like "yeah" and "yes".)
 
 Additional information, including instructions for setting up your own endpoints and phrases to which Siri should respond, can be found in the comments inside the shortcut or in the PHP scripts.
+
+In the `patterns` directory you will find two files showing how to do some interesting things with the API. There are, of course, just two common things you may want to do, and in no way representative of the full capabilities of the software. You can do any complex operations you want on the server and return any data you want to be read by Siri.
