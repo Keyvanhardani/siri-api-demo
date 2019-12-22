@@ -37,7 +37,7 @@ function answerIsTrue() {
     'yup'
   ];
 
-  if(in_array($answer, $affirmative)) {
+  if(in_array(strtolower($answer), $affirmative)) {
     return true;
   }
 }
